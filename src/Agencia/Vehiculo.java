@@ -1,6 +1,5 @@
 package Agencia;
 
-
 public class Vehiculo {
 
     private String noSerie;
@@ -73,6 +72,11 @@ public class Vehiculo {
      */
     public void setColor(char color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" + "noSerie=" + noSerie + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color + '}';
     }
 
 }
