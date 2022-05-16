@@ -48,6 +48,6 @@ public class Motocicleta extends Vehiculo {
         return super.toString()
                 + "Motocicleta{" + "potencia=" + potencia + ", rodada=" + rodada + '}';
     }
-
+    
  
-}
+}   
