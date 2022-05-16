@@ -1,5 +1,5 @@
 package Agencia;
 
-public class AutoElectrico extends Motocicleta {
+public class AutoElectrico extends Automovil{
     
 }
