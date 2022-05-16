@@ -1,6 +1,8 @@
 package Agencia;
 
-public class Vehiculo {
+import java.io.Serializable;
+
+public class Vehiculo implements Serializable, Comparable<Vehiculo> {
 
     private String noSerie;
     private String marca;
@@ -17,7 +19,7 @@ public class Vehiculo {
     public Vehiculo() {
         this("SIN NÚMERO", "SIN MARCA", "SIN MODELO", 'N');
     }
-    
+
     /**
      * @return the noSerie
      */
@@ -77,6 +79,11 @@ public class Vehiculo {
     @Override
     public String toString() {
         return "Vehiculo{" + "noSerie=" + noSerie + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color + '}';
+    }
+
+    @Override
+    public int compareTo(Vehiculo o) {
+        return noSerie.toUpperCase().compareTo(o.getNoSerie().toUpperCase());
     }
 
 }
