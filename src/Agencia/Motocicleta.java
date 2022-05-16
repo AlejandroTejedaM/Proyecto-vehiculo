@@ -26,7 +26,7 @@ public class Motocicleta extends Vehiculo {
      * @param potencia the potencia to set
      */
     public void setPotencia(float potencia) {
-        this.potencia = potencia;
+        this.potencia = potencia > 0 ? potencia : 1;
     }
 
     /**
@@ -40,7 +40,7 @@ public class Motocicleta extends Vehiculo {
      * @param rodada the rodada to set
      */
     public void setRodada(byte rodada) {
-        this.rodada = rodada;
+        this.rodada = rodada > 0 ? rodada : 1;
     }
 
     @Override
