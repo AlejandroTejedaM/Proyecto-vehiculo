@@ -1,3 +1,5 @@
+package Agencia;
+
 
 public class Motocicleta extends Vehiculo{
     private float potencia; 
@@ -17,7 +19,7 @@ public class Motocicleta extends Vehiculo{
     public float getPotencia() {
         return potencia;
     }
-
+    
     /**
      * @param potencia the potencia to set
      */
