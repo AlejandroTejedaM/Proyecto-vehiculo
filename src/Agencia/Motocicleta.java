@@ -10,7 +10,7 @@ public class Motocicleta extends Vehiculo {
         setPotencia(potencia);
         setRodada(rodada);
     }
-
+    
     public Motocicleta() {
         this(1f, (byte) 1, "Sin numero de serie", "Sin marca", "Sin modelo", 'A');
     }
