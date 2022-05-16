@@ -78,5 +78,5 @@ public class Vehiculo {
     public String toString() {
         return "Vehiculo{" + "noSerie=" + noSerie + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color + '}';
     }
-    
+
 }

@@ -5,12 +5,10 @@ package Agencia;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Usuario
  */
-public class AutoElectrico extends Motocicleta{
-    
-    
+public class AutoElectrico extends Motocicleta {
+
 }

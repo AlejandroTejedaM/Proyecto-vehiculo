@@ -10,7 +10,7 @@ public class Motocicleta extends Vehiculo {
         setPotencia(potencia);
         setRodada(rodada);
     }
-    
+
     public Motocicleta() {
         this(1f, (byte) 1, "Sin numero de serie", "Sin marca", "Sin modelo", 'A');
     }
@@ -48,6 +48,5 @@ public class Motocicleta extends Vehiculo {
         return super.toString()
                 + "Motocicleta{" + "potencia=" + potencia + ", rodada=" + rodada + '}';
     }
-    
- 
-}   
+
+}
