@@ -10,5 +10,5 @@ package Agencia;
  * @author Usuario
  */
 public class AutoElectrico extends Motocicleta {
-
+    
 }

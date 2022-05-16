@@ -17,7 +17,7 @@ public class Vehiculo {
     public Vehiculo() {
         this("SIN NÚMERO", "SIN MARCA", "SIN MODELO", 'N');
     }
-
+    
     /**
      * @return the noSerie
      */
