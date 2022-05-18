@@ -32,4 +32,17 @@ public class AutoElectrico extends Automovil {
                 + "AutoElectrico{" + "duracionBateria=" + duracionBateria + '}';
     }
 
+    @Override
+    public double costoVehiculo() {
+
+        return 0;
+    }
+
+    @Override
+    public String combustible() {
+
+        return null;
+
+    }
+
 }

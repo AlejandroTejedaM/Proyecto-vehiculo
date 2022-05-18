@@ -49,4 +49,16 @@ public class Motocicleta extends Vehiculo {
                 + "Motocicleta{" + "potencia=" + potencia + ", rodada=" + rodada + '}';
     }
 
+    @Override
+    public double costoVehiculo() {
+
+        return 0;
+    }
+
+    @Override
+    public String combustible() {
+
+        return null;
+
+    }
 }

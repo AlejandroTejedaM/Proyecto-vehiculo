@@ -42,11 +42,24 @@ public class Automovil extends Vehiculo {
     public void setNoPuertas(float noPuertas) {
         this.noPuertas = noPuertas > 0 ? this.noPuertas = noPuertas : 1;
     }
-    
+
     @Override
     public String toString() {
         return super.toString()
                 + "Automovil{" + "caballosFuerza=" + caballosFuerza + ", noPuertas=" + noPuertas + '}';
+    }
+
+    @Override
+    public double costoVehiculo() {
+
+        return 0;
+    }
+
+    @Override
+    public String combustible() {
+
+        return null;
+
     }
 
 }
