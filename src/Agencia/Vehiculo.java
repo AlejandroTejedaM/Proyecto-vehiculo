@@ -14,7 +14,7 @@ public class Vehiculo implements Serializable, Comparable<Vehiculo> {
         setMarca(marca);
         setModelo(modelo);
         setColor(color);
-    }
+    }   
 
     public Vehiculo() {
         this("SIN NÚMERO", "SIN MARCA", "SIN MODELO", 'N');
