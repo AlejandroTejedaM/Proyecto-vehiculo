@@ -19,7 +19,7 @@ public class Vehiculo implements Serializable, Comparable<Vehiculo> {
     public Vehiculo() {
         this("SIN NÚMERO", "SIN MARCA", "SIN MODELO", 'N');
     }
-    
+
     /**
      * @return the noSerie
      */
@@ -61,7 +61,7 @@ public class Vehiculo implements Serializable, Comparable<Vehiculo> {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-    
+
     /**
      * @return the color
      */
@@ -80,7 +80,7 @@ public class Vehiculo implements Serializable, Comparable<Vehiculo> {
     public String toString() {
         return "Vehiculo{" + "noSerie=" + noSerie + ", marca=" + marca + ", modelo=" + modelo + ", color=" + color + '}';
     }
-    
+
     @Override
     public int compareTo(Vehiculo o) {
         return noSerie.toUpperCase().compareTo(o.getNoSerie().toUpperCase());
