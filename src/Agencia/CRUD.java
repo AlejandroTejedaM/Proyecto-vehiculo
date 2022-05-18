@@ -2,26 +2,26 @@ package Agencia;
 
 public class CRUD {
 
-    private Vehiculo[] array;
+    private Vehiculo[] grupo;
     private int indice;
 
     public CRUD() {
-        array = new Vehiculo[100];
+        grupo = new Vehiculo[100];
         indice = 0;
     }
-
+        
     /**
      * @return the vehiculo
      */
     public Vehiculo[] getVehiculo() {
-        return array;
+        return grupo;
     }
-
+    
     /**
-     * @param array the array to set
+     * @param grupo the grupo to set
      */
-    public void setVehiculo(Vehiculo[] array) {
-        this.array = array;
+    public void setVehiculo(Vehiculo[] grupo) {
+        this.grupo = grupo;
     }
 
     /**
@@ -39,14 +39,14 @@ public class CRUD {
     }
 
     public void create(Vehiculo vehiculo) {
-        array[indice] = vehiculo;
+        grupo[indice] = vehiculo;
         indice++;
     }
 
     public String read() {
         String cadena = "";
         for (int i = 0; i < indice; i++) {
-            cadena += array[i].toString() + "\n";
+            cadena += grupo[i].toString() + "\n";
         }
         return cadena;
     }
