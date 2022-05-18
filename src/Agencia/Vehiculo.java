@@ -85,5 +85,5 @@ public class Vehiculo implements Serializable, Comparable<Vehiculo> {
     public int compareTo(Vehiculo o) {
         return noSerie.toUpperCase().compareTo(o.getNoSerie().toUpperCase());
     }
-
+    
 }
